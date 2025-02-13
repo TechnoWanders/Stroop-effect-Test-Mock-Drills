@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ATTENTION BASED GAME</title>
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+		<script src="./scripts.js" defer></script>
+	</head>
+	<body>
+		<div class='full_box'>
+		<div class='left_box'>
+			<div class='content'>
+				<h2>MOCK DRILLS TO INCREASE YOUR ATTENTION AND FOCUS.</h2>
+				<span class='adders'>
+					<button id='startButton' onclick="changecolor(); start();"> START GAME </button>	
+					<h3>HIGH SCORE</h3>
+					<h3 id='hscore'></h3>
+					<h3>TRIES</h3>
+					<h3 id='trying'></h3>
+					<h3>EFFICIENCY</h3>
+					<h3 id='efficiency'></h3>
+				</span>
+			</div>
+		</div>
+
+		<div id='right_box' class='right_box'>
+			<h3 id='timer'>TIMER</h3>
+			<h3 id='time'></h3>
+			<p class='color_name' id='color_name'>COLOR NAME</p>
+			
+			<ol class='options' id='options'>
+				<button id="btn1"  onclick="showId(this)" class='random_btn'>OPTION 1</button>
+				<button id="btn2"  onclick="showId(this)" class='random_btn'>OPTION 2</button>
+				<button id="btn3"  onclick="showId(this)" class='random_btn'>OPTION 3</button>
+				<button id="btn4"  onclick="showId(this)" class='random_btn'>OPTION 4</button>
+			</ol>
+
+			<h3> SCORE </h3>
+			<h3 id='score' class='score'></h3>
+			
+			<h3> TRIES </h3>
+			<h3 id='tries' class='tries'></h3>
+
+			<h3> PERCENTAGE </h3>
+			<h3 id='percentage' class='percent'></h3>
+		</div>
+		</div>
+	</body>
+</html>
+
